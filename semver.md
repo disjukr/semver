@@ -5,6 +5,7 @@ In the world of software management there exists a dread place called
 "dependency hell." The bigger your system grows and the more packages you
 integrate into your software, the more likely you are to find yourself, one
 day, in this pit of despair.
+
 소프트웨어 매니지먼트의 세계에선 "의존성 지옥"이라 불리는, 시스템이 성장하고 더
 많은 패키지가 소프트웨어에 통합되어가면서 여러분을 절망의 구렁텅이에 빠져들게
 만드는 공포의 영역이 존재합니다.
