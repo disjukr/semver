@@ -19,6 +19,15 @@ specified too loosely, you will inevitably be bitten by version promiscuity
 Dependency hell is where you are when version lock and/or version promiscuity
 prevent you from easily and safely moving your project forward.
 
+많은 의존성을 들고있는 시스템은 새 패키지 버전을 내놓는게 악몽을 만드는 지름길일
+수 있습니다. 만약 의존성 정의가 너무 엄격하다면 버전 락에 빠질 위험이 있습니다
+(모든 의존성 패키지의 새로운 버전이 릴리즈되지 않고서는 함부로 패키지를
+업그레이드할 수 없게되는 것). 반대로 의존성이 너무 느슨하게 정의되어있다면 (미래
+버전과의 호환성이 합리적이라고 가정할 때) 버전 뒤범벅의 따끔한 맛을 보게
+될겁니다. 의존성 지옥은 여러분이 버전락에 빠져버릴 때와 버전 뒤범벅이 여러분의
+프로젝트가 쉽고 안전하게 나아가는 것을 방해할 때, 그리고 그 둘이 동시에 일어날
+때를 뜻합니다.
+
 As a solution to this problem, I propose a simple set of rules and
 requirements that dictate how version numbers are assigned and incremented.
 For this system to work, you first need to declare a public API. This may
