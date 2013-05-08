@@ -39,6 +39,16 @@ affecting the API increment the patch version, backwards compatible API
 additions/changes increment the minor version, and backwards incompatible API
 changes increment the major version.
 
+저는 이 문제를 해결하기 위해 어떻게 버전 넘버를 적용하고 증가시키는지에 대한
+간단한 규칙의 집합과 요구사항을 제안합니다. 이 시스템이 작동하기 위해, 여러분은
+먼저 공식 API를 선언할 필요가 있습니다. 이는 문서로 구성되어있거나 코드 스스로
+적용되어 있을겁니다. 그 형태가 어떻든간에 이 API가 깔끔하고 명확하도록 하는 것이
+중요합니다. 공식 API는 버전 넘버를 올림으로서 어떤 것이 변경되었는지를 알릴 수
+있습니다. 버전은 X.Y.Z (메이저, 마이너, 패치)의 형식을 따릅니다. API에 영향을
+주지 않는 자잘한 버그 수정이 있으면 패치 버전을 올리고 이전버전 호환 API
+추가/수정이 있으면 마이너 버전을 올리고, 이전버전 비호환 API 수정이 있으면
+메이저 버전을 올립니다.
+
 I call this system "Semantic Versioning." Under this scheme, version numbers
 and the way they change convey meaning about the underlying code and what has
 been modified from one version to the next.
