@@ -53,6 +53,9 @@ I call this system "Semantic Versioning." Under this scheme, version numbers
 and the way they change convey meaning about the underlying code and what has
 been modified from one version to the next.
 
+저는 이 시스템을 "시맨틱 버저닝"이라고 부르겠습니다. 이 도식에서, 버전 넘버와 그
+변경 방법은 코드가 담고있는 숨은 의미와 한 버전으로부터 그 다음으로 가는데
+수정된 내용이 무엇인지를 전달합니다.
 
 Semantic Versioning Specification (SemVer)
 ------------------------------------------
